@@ -202,7 +202,11 @@ I'm a **Java Full Stack Developer** with a strong focus on backend systems, secu
 
 ## 📈 Contribution Activity
 
-![GitHub Contribution Snake](https://raw.githubusercontent.com/manjith766/manjith766/output/github-contribution-grid-snake.svg)
+<div align="center">
+
+[![Manjith's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=manjith766&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
 
 ---
 
