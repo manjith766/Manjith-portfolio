@@ -23,7 +23,7 @@
 
 I'm a **Java Full Stack Developer** with a strong focus on backend systems, secure API design, and AI integration. I build production-grade systems that are clean, secure, and scalable — from REST APIs to microservices to AI-enabled backends.
 
-- 🔭 Currently working on **Multi-Vendor E-Commerce Backend System** with 20+ production-ready REST APIs
+- 🔭 Currently working on **JippyFood & Mart — Microservices Platform** with 20+ production-ready REST APIs
 - 🤖 Passionate about **integrating AI & LLM capabilities** into real-world backend systems
 - 🏗️ Strong advocate of **SOLID principles**, **Clean Architecture**, and **Design Patterns**
 - 📍 Based in **Hyderabad, India** 🇮🇳 — always open to remote collaboration!
@@ -192,6 +192,47 @@ I'm a **Java Full Stack Developer** with a strong focus on backend systems, secu
 **Stack:** `Java 17` · `Spring Boot` · `Spring Security` · `JPA/Hibernate` · `MySQL` · `Maven`
 
 🔗 [**View Repository →**](https://github.com/manjith766/E-commerce-backend)
+
+---
+
+### 🍔 JippyFood & Mart — Microservices Platform
+![Status](https://img.shields.io/badge/Status-🚧%20In%20Progress-orange?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java_17-ED8936?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-FF6B6B?style=for-the-badge&logo=docker&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+> 🚧 **Currently building** a full-scale food & mart delivery platform using event-driven microservices architecture — designed for high availability, fault tolerance, and independent deployability.
+
+#### 🧩 Microservices Architecture
+
+| Service | Responsibility |
+|---|---|
+| 🔐 Auth Service | JWT-based authentication & authorization across all services |
+| 👤 User Service | User registration, profiles, address management |
+| 📦 Product / Inventory Service | Food & mart listings, stock tracking, availability |
+| 🛒 Order Service | Order lifecycle management, cart-to-order flow |
+| 💳 Payment Service | Payment processing, transaction tracking, refunds |
+| 🚚 Delivery Service | Delivery agent assignment, real-time tracking |
+| 🔔 Notification Service | Event-driven alerts via Kafka — email, SMS, push |
+| 🌐 API Gateway | Spring Cloud Gateway — routing, rate limiting, auth filter |
+
+#### ⚙️ Tech Highlights
+
+| Layer | Technology |
+|---|---|
+| 🏗️ Architecture | Microservices — independent deploy & scale per service |
+| 📨 Messaging | Kafka / RabbitMQ — async event-driven communication |
+| ⚡ Caching | Redis — session management & high-speed data access |
+| 🔍 Discovery | Eureka — dynamic service registration & load balancing |
+| 🌐 Gateway | Spring Cloud Gateway — single entry point, auth filter |
+| 🐳 Containerization | Docker + Kubernetes — container orchestration & scaling |
+| 🗄️ Databases | MySQL + PostgreSQL — per-service database isolation |
+| 🔐 Security | Spring Security + JWT — service-to-service secure calls |
+
+**Stack:** `Java 17` · `Spring Boot` · `Spring Cloud` · `Kafka` · `Redis` · `Eureka` · `Docker` · `Kubernetes` · `MySQL` · `PostgreSQL` · `API Gateway`
 
 ---
 
