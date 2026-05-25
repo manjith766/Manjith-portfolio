@@ -12,7 +12,7 @@
 
 I craft robust backend systems, secure APIs, and intelligent solutions leveraging modern Java ecosystem and AI capabilities.
 
-[💼 LinkedIn](https://www.linkedin.com/in/manjith-nagineni) • [🌐 GitHub](https://github.com/manjith766) • [🐦 Twitter](https://twitter.com/manjith766)
+[📧 Email](mailto:manjith9989@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/manjith-nagineni) • [📱 Phone](tel:+919398303933) • [🌐 GitHub](https://github.com/manjith766)
 
 [![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=manjith766.manjith766&title=Profile%20Views)](https://github.com/manjith766)
 [![GitHub followers](https://img.shields.io/github/followers/manjith766?label=Followers&style=social)](https://github.com/manjith766?tab=followers)
@@ -253,9 +253,10 @@ I'm always interested in collaborating on exciting backend projects, discussing 
 
 <div align="center">
 
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manjith9989@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manjith-nagineni)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manjith766)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/manjith766)
+[![Phone](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+919398303933)
 
 **Feel free to reach out for:**
 - 💬 Backend development discussions
