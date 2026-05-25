@@ -163,29 +163,6 @@ I'm dedicated to:
 
 ---
 
-### 🔐 Encrypted Image Content Moderation System
-
-**A secure backend system for image upload, storage, and content moderation with encryption and audit logging**
-
-#### Key Features:
-- 🖼️ **Secure Image Upload APIs** - Validated and sanitized file upload endpoints
-- 🔒 **AES Encryption** - End-to-end encryption for sensitive image data
-- 👤 **Role-Based Access Control** - Granular permissions for different user roles
-- 📋 **Structured Logging** - Comprehensive application logging for debugging
-- 🏷️ **Metadata Encryption** - Secure storage of image metadata
-- 📜 **Audit Logs** - Complete audit trail of all operations
-- 🔐 **Spring Security Integration** - Authentication and authorization framework
-- 💾 **MySQL Database** - Persistent storage with encryption at rest
-- 🛡️ **Security Best Practices** - Input validation, CSRF protection, CORS configuration
-
-#### Tech Stack:
-`Java` | `Spring Boot` | `Spring Security` | `AES Encryption` | `MySQL` | `REST APIs`
-
-#### Project Links:
-🔗 [GitHub Repository](https://github.com/manjith766)
-
----
-
 ## 🤖 AI & Modern Tech
 
 <div align="center">
@@ -303,21 +280,13 @@ I'm on an exciting journey to master backend development and contribute to impac
 
 ## 📊 Contribution Snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manjith766/manjith766-/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manjith766/manjith766-/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/manjith766/manjith766-/output/github-contribution-grid-snake.svg">
-</picture>
+![GitHub Contribution Snake](https://raw.githubusercontent.com/manjith766/manjith766-/output/github-contribution-grid-snake.svg)
 
 ---
 
 <div align="center">
 
 ### ⭐ If you find my projects or profile helpful, please consider giving a star! ⭐
-
----
-
-<img src="https://raw.githubusercontent.com/manjith766/manjith766-/output/github-contribution-grid-snake.svg" alt="snake" />
 
 ---
 
