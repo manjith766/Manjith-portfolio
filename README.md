@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2000&pause=1000&color=7AA2F7&center=true&width=900&lines=💻+Java+Full+Stack+Developer;🚀+AI+Integration+Specialist;🔐+Secure+Backend+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2000&pause=1000&color=7AA2F7&center=true&width=900&lines=💻+Java+Full+Stack+Developer;🚀+AI+Integration+Specialist;⚡+Building+Scalable+Backends" alt="Typing SVG">
 </div>
 
 ---
@@ -142,18 +142,18 @@ I'm dedicated to:
 **A comprehensive backend system for a multi-vendor e-commerce platform with advanced features and role-based access control**
 
 #### Key Features:
-- ✅ **20+ Production-Ready REST APIs** - Comprehensive CRUD operations with validation
-- 👥 **Role-Based Access Control (RBAC)** - Customer, Seller, and Admin roles with granular permissions
-- 🔐 **JWT Authentication & Authorization** - Secure token-based authentication with refresh tokens
-- 🛒 **Complete Cart-to-Order Workflow** - Shopping cart management, checkout process, and order tracking
-- 💰 **Advanced Coupon Engine** - Discount management, coupon validation, and application logic
-- 🔍 **JPA Specifications** - Complex query building for advanced filtering scenarios
-- 📄 **Pagination, Filtering & Sorting** - Efficient data retrieval with flexible query options
-- 🚨 **Global Exception Handling** - Centralized error handling with custom exception strategies
-- 🏗️ **Layered Architecture** - Clean separation of concerns (Controller → Service → Repository → Database)
-- 📝 **DTO Pattern** - Data transfer objects for API request/response handling
-- 📊 **Product Management** - Vendor product listings with inventory tracking
-- 💳 **Payment Integration Ready** - Architecture supports payment gateway integration
+- ✅ **20+ Production-Ready REST APIs** - Designed comprehensive CRUD operations with strict input validation (JSR 380) to ensure data integrity
+- 👥 **Role-Based Access Control (RBAC)** - Implemented multi-tier access control (Customer, Seller, Admin) with granular permission management for secure operations
+- 🔐 **JWT Authentication & Authorization** - Secure token-based authentication with refresh token rotation to prevent unauthorized access
+- 🛒 **Complete Cart-to-Order Workflow** - End-to-end shopping experience with real-time inventory tracking and order state management
+- 💰 **Advanced Coupon Engine** - Dynamic discount system with validation logic and application rules for promotional campaigns
+- 🔍 **JPA Specifications** - Implemented JPA Specifications to handle complex, dynamic multi-attribute filtering for product searches efficiently
+- 📄 **Pagination, Filtering & Sorting** - Efficient data retrieval with flexible query options for improved performance and user experience
+- 🚨 **Global Exception Handling** - Centralized error handling with custom exception strategies and meaningful error responses
+- 🏗️ **Layered Architecture** - Clean separation of concerns (Controller → Service → Repository → Database) for maintainability
+- 📝 **DTO Pattern** - Data transfer objects for API request/response handling with validation
+- 📊 **Product Management** - Vendor product listings with inventory tracking and stock management
+- 💳 **Payment Integration Ready** - Architecture designed to support seamless payment gateway integration
 
 #### Tech Stack:
 `Java 17` | `Spring Boot` | `Spring Security` | `JPA/Hibernate` | `MySQL` | `Maven` | `REST APIs`
@@ -180,8 +180,6 @@ I'm dedicated to:
 
 <div align="center">
 
-![Microservices](https://img.shields.io/badge/Microservices_Architecture-FF6B6B?style=for-the-badge&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker_Containerization-2496ED?style=for-the-badge&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![System Design](https://img.shields.io/badge/System_Design-9C27B0?style=for-the-badge&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS_Cloud-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
@@ -205,15 +203,9 @@ I'm dedicated to:
 
 ### 🎖️ Competitive Programming & Problem Solving
 
-- 🔗 **LeetCode** - [Profile Coming Soon](https://leetcode.com/)
+- 🔗 **LeetCode** - [View My Profile](https://leetcode.com/u/manjith766/)
 - 📚 **Data Structures & Algorithms** - Tree, Graph, Dynamic Programming, Sorting, Searching
 - 💪 **Problem-Solving** - Focus on optimal solutions and algorithmic thinking
-
-### 🌐 Portfolio & Showcases
-
-- 💼 **Portfolio Website** - [Coming Soon](#)
-- 📱 **Project Demos** - Live deployment links to be added
-- 📖 **Technical Blogs** - Articles on backend engineering and AI integration (coming soon)
 
 ### 🤝 Open Source Contributions
 
