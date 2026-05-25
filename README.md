@@ -1,94 +1,43 @@
+<!-- SECTION G: VISITOR COUNTER -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2000&pause=1000&color=7AA2F7&center=true&width=900&lines=💻+Java+Full+Stack+Developer;🚀+AI+Integration+Specialist;⚡+Building+Scalable+Backends" alt="Typing SVG">
+  <img src="https://komarev.com/ghpvc/?username=manjith766&label=Profile%20Views&color=7AA2F7&style=for-the-badge" alt="Profile Views" />
 </div>
 
 ---
 
+<!-- SECTION A: ANIMATED HEADER -->
 <div align="center">
-  
-## 👋 Welcome to My GitHub Profile
-  
-**Java Full Stack Developer with AI Integration | Building Scalable & Secure Backend Systems**
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px" alt="Wave" />
+  <h1>Hey there, I'm <strong>Manjith Nagineni</strong> 👋</h1>
 
-I craft robust backend systems, secure APIs, and intelligent solutions leveraging modern Java ecosystem and AI capabilities.
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=900&lines=☕+Java+Full+Stack+Developer;🚀+AI+Integration+Specialist;🔐+Security-First+Backend+Engineer;⚡+Building+Scalable+%26+Intelligent+Systems" alt="Typing SVG" />
 
-[📧 Email](mailto:manjith9989@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/manjith-nagineni) • [📱 Phone](tel:+919398303933) • [🌐 GitHub](https://github.com/manjith766)
-
-[![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=manjith766.manjith766&title=Profile%20Views)](https://github.com/manjith766)
-[![GitHub followers](https://img.shields.io/github/followers/manjith766?label=Followers&style=social)](https://github.com/manjith766?tab=followers)
-[![Twitter Follow](https://img.shields.io/twitter/follow/manjith766?style=social)](https://twitter.com/manjith766)
-
+  <br/>
+  <em><strong>"Clean code. Secure systems. Intelligent backends."</strong></em>
 </div>
 
 ---
 
-## 🎯 About Me
+<!-- SECTION B: ABOUT ME -->
+## 🧑‍💻 About Me
 
-```
-→ Java Full Stack Developer with expertise in backend systems and AI integration
-→ Building secure, scalable REST APIs and microservices with modern architecture
-→ Clean Code advocate | SOLID Principles enthusiast | AI-first mindset
-→ Based in Hyderabad, India 🇮🇳
-→ Entry-level but committed to excellence and continuous innovation
-→ Open to collaborations and contributing to open-source projects
-```
+I'm a **Java Full Stack Developer** with a strong focus on backend systems, secure API design, and AI integration. I build production-grade systems that are clean, secure, and scalable — from REST APIs to microservices to AI-enabled backends.
 
-I'm dedicated to:
-- 🏗️ Designing clean, maintainable backend architectures
-- 🔐 Implementing robust security mechanisms (JWT, RBAC, encryption)
-- ⚡ Developing high-performance REST APIs and microservices
-- 🤖 Integrating AI capabilities into backend systems
-- 📚 Following industry best practices and design patterns
-- 🎓 Continuous learning and skill development
+- 🔭 Currently working on **Multi-Vendor E-Commerce Backend System** with 20+ production-ready REST APIs
+- 🤖 Passionate about **integrating AI & LLM capabilities** into real-world backend systems
+- 🏗️ Strong advocate of **SOLID principles**, **Clean Architecture**, and **Design Patterns**
+- 📍 Based in **Hyderabad, India** 🇮🇳 — always open to remote collaboration!
+- 🔐 Security-first mindset: JWT, RBAC, AES Encryption — always
+- 🎯 LeetCode grinder — solving problems at [leetcode.com/u/manjith766](https://leetcode.com/u/manjith766/)
+- 🌱 Currently leveling up in **Kubernetes**, **AWS**, **System Design**, and **CI/CD pipelines**
+- 💬 Ask me about **Spring Boot**, **Microservices**, **Backend Architecture**, or **AI Integration**
 
 ---
 
-## 💼 Technical Expertise
+<!-- SECTION C: TECH STACK -->
+## 💼 Tech Stack
 
-### Core Technologies
-<div align="center">
-
-![Java](https://img.shields.io/badge/Java_17-ED8936?style=for-the-badge&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6B6B?style=for-the-badge&logo=api&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-FF6B6B?style=for-the-badge&logo=docker&logoColor=white)
-
-</div>
-
-### Backend Development
-<div align="center">
-
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
-![JPA/Hibernate](https://img.shields.io/badge/JPA%2FHibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![RBAC](https://img.shields.io/badge/RBAC-4A90E2?style=for-the-badge&logoColor=white)
-![Encryption](https://img.shields.io/badge/AES_Encryption-2E86AB?style=for-the-badge&logoColor=white)
-![Exception Handling](https://img.shields.io/badge/Global_Exception_Handling-E53238?style=for-the-badge&logoColor=white)
-
-</div>
-
-### Databases & Caching
-<div align="center">
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![JPA Specifications](https://img.shields.io/badge/JPA_Specifications-59666C?style=for-the-badge&logoColor=white)
-
-</div>
-
-### DevOps & Tools
-<div align="center">
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-
-</div>
-
-### Frontend & Full Stack
+### 🖥️ Frontend
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
@@ -97,10 +46,46 @@ I'm dedicated to:
 
 </div>
 
-### Architecture & Principles
+### ⚙️ Backend
 <div align="center">
 
-![SOLID Principles](https://img.shields.io/badge/SOLID_Principles-4CAF50?style=for-the-badge&logoColor=white)
+![Java](https://img.shields.io/badge/Java_17-ED8936?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-FF6B6B?style=for-the-badge&logo=fastapi&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-FF6B6B?style=for-the-badge&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![JPA Hibernate](https://img.shields.io/badge/JPA%2FHibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC-4A90E2?style=for-the-badge&logoColor=white)
+![AES Encryption](https://img.shields.io/badge/AES_Encryption-2E86AB?style=for-the-badge&logoColor=white)
+
+</div>
+
+### 🗄️ Databases
+<div align="center">
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![JPA Specifications](https://img.shields.io/badge/JPA_Specifications-59666C?style=for-the-badge&logoColor=white)
+
+</div>
+
+### 🛠️ Tools & DevOps
+<div align="center">
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+
+</div>
+
+### 🏛️ Architecture & Principles
+<div align="center">
+
+![SOLID](https://img.shields.io/badge/SOLID_Principles-4CAF50?style=for-the-badge&logoColor=white)
 ![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-2196F3?style=for-the-badge&logoColor=white)
 ![Layered Architecture](https://img.shields.io/badge/Layered_Architecture-FF9800?style=for-the-badge&logoColor=white)
 ![Design Patterns](https://img.shields.io/badge/Design_Patterns-9C27B0?style=for-the-badge&logoColor=white)
@@ -109,15 +94,53 @@ I'm dedicated to:
 
 </div>
 
+### 🤖 AI & Emerging Tech
+<div align="center">
+
+![AI Integration](https://img.shields.io/badge/AI_Integration-4CAF50?style=for-the-badge&logoColor=white)
+![LLM APIs](https://img.shields.io/badge/LLM_APIs-9C27B0?style=for-the-badge&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6B6B?style=for-the-badge&logoColor=white)
+![Data Processing](https://img.shields.io/badge/Data_Processing-2196F3?style=for-the-badge&logoColor=white)
+
+</div>
+
+### 📚 Currently Learning
+<div align="center">
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![System Design](https://img.shields.io/badge/System_Design-9C27B0?style=for-the-badge&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-00897B?style=for-the-badge&logo=githubactions&logoColor=white)
+
+</div>
+
 ---
 
+<!-- SECTION D: SOCIAL MEDIA LINKS -->
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manjith_Nagineni-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manjith-nagineni)
+[![GitHub](https://img.shields.io/badge/GitHub-manjith766-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manjith766)
+[![Gmail](https://img.shields.io/badge/Gmail-manjith9989@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manjith9989@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-manjith766-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/manjith766/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B91_9398303933-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+919398303933)
+
+</div>
+
+---
+
+<!-- SECTION E: GITHUB STATS -->
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=manjith766&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+<img src="https://github-readme-stats.vercel.app/api?username=manjith766&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Manjith's GitHub Stats" height="180"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manjith766&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180"/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=manjith766&layout=compact&theme=tokyonight&hide_border=true)
+<br/><br/>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=manjith766&theme=tokyonight&hide_border=true)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
@@ -125,172 +148,92 @@ I'm dedicated to:
 
 ---
 
-## 🏆 GitHub Achievements
+<!-- SECTION F: GITHUB TROPHIES -->
+## 🏆 GitHub Trophies
 
 <div align="center">
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=manjith766&theme=tokyonight&no-frame=true&row=1)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=manjith766&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
 ---
 
-## 📚 Featured Projects
+## 📌 Featured Project
 
 ### 🛍️ Multi-Vendor E-Commerce Backend System
 
-**A comprehensive backend system for a multi-vendor e-commerce platform with advanced features and role-based access control**
+> A comprehensive, production-ready backend with advanced RBAC, JWT authentication, and intelligent product filtering.
 
-#### Key Features:
-- ✅ **20+ Production-Ready REST APIs** - Designed comprehensive CRUD operations with strict input validation (JSR 380) to ensure data integrity
-- 👥 **Role-Based Access Control (RBAC)** - Implemented multi-tier access control (Customer, Seller, Admin) with granular permission management for secure operations
-- 🔐 **JWT Authentication & Authorization** - Secure token-based authentication with refresh token rotation to prevent unauthorized access
-- 🛒 **Complete Cart-to-Order Workflow** - End-to-end shopping experience with real-time inventory tracking and order state management
-- 💰 **Advanced Coupon Engine** - Dynamic discount system with validation logic and application rules for promotional campaigns
-- 🔍 **JPA Specifications** - Implemented JPA Specifications to handle complex, dynamic multi-attribute filtering for product searches efficiently
-- 📄 **Pagination, Filtering & Sorting** - Efficient data retrieval with flexible query options for improved performance and user experience
-- 🚨 **Global Exception Handling** - Centralized error handling with custom exception strategies and meaningful error responses
-- 🏗️ **Layered Architecture** - Clean separation of concerns (Controller → Service → Repository → Database) for maintainability
-- 📝 **DTO Pattern** - Data transfer objects for API request/response handling with validation
-- 📊 **Product Management** - Vendor product listings with inventory tracking and stock management
-- 💳 **Payment Integration Ready** - Architecture designed to support seamless payment gateway integration
+| Feature | Detail |
+|---|---|
+| 🔗 REST APIs | 20+ endpoints with JSR 380 validation |
+| 👥 RBAC | Customer / Seller / Admin role hierarchy |
+| 🔐 Auth | JWT with refresh token rotation |
+| 🛒 Cart → Order | End-to-end workflow with inventory sync |
+| 💰 Coupon Engine | Dynamic discounts with validation rules |
+| 🔍 Smart Search | JPA Specifications for dynamic filtering |
+| 📄 Data Retrieval | Pagination, sorting, and multi-filter support |
+| 🚨 Error Handling | Global exception handler with custom strategies |
 
-#### Tech Stack:
-`Java 17` | `Spring Boot` | `Spring Security` | `JPA/Hibernate` | `MySQL` | `Maven` | `REST APIs`
+**Stack:** `Java 17` · `Spring Boot` · `Spring Security` · `JPA/Hibernate` · `MySQL` · `Maven`
 
-#### Project Links:
-🔗 [GitHub Repository](https://github.com/manjith766/E-commerce-backend)
+🔗 [**View Repository →**](https://github.com/manjith766/E-commerce-backend)
 
 ---
 
-## 🤖 AI & Modern Tech
+## 🎯 Dev Philosophy
 
 <div align="center">
 
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6B6B?style=for-the-badge&logoColor=white)
-![AI Integration](https://img.shields.io/badge/AI_Integration-4CAF50?style=for-the-badge&logoColor=white)
-![LLM APIs](https://img.shields.io/badge/LLM_APIs-9C27B0?style=for-the-badge&logoColor=white)
-![Data Processing](https://img.shields.io/badge/Data_Processing-2196F3?style=for-the-badge&logoColor=white)
+> *"Code is read much more often than it is written. Write code that humans can understand."*
+
+| Principle | Practice |
+|---|---|
+| 🔒 Secure | JWT · RBAC · AES · Input Validation |
+| ⚡ Performant | Query optimization · Connection pooling |
+| 📚 Maintainable | Clean code · SOLID · Well-documented |
+| 🏗️ Scalable | Microservices · Layered architecture |
+| 🤖 Intelligent | LLM APIs · AI-first backend thinking |
 
 </div>
 
 ---
 
-## 🎓 Currently Learning
+## 📈 Contribution Activity
+
+![GitHub Contribution Snake](https://raw.githubusercontent.com/manjith766/manjith766/output/github-contribution-grid-snake.svg)
+
+---
+
+<!-- SECTION H: FOOTER -->
+## 🤝 Let's Build Something Great
 
 <div align="center">
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![System Design](https://img.shields.io/badge/System_Design-9C27B0?style=for-the-badge&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_Cloud-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD_Pipelines-00897B?style=for-the-badge&logoColor=white)
+I'm always open to:
 
-</div>
+💬 **Backend Architecture Discussions** &nbsp;|&nbsp; 🤖 **AI/ML Integration Projects** &nbsp;|&nbsp; 🤝 **Open Source Collaboration** &nbsp;|&nbsp; 📧 **Job & Freelance Opportunities**
 
----
+<br/>
 
-## 🚀 Additional Sections
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manjith-nagineni)
+[![Gmail](https://img.shields.io/badge/Gmail-Drop_a_Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manjith9989@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manjith766)
 
-### 💡 Code Quality & Best Practices
-
-- ✨ **SOLID Principles** - Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
-- 🏗️ **Clean Architecture** - Hexagonal/Onion architecture for maintainability
-- 🔐 **Security-First Development** - Input validation, encryption, secure authentication
-- 📊 **Design Patterns** - Singleton, Factory, Strategy, Observer, Repository, Dependency Injection
-- 🎯 **API Design** - RESTful best practices, proper HTTP methods, versioning strategies
-- 📈 **Performance Optimization** - Query optimization, connection pooling, caching strategies
-- 🧪 **Testing** - Unit testing, integration testing, test-driven development
-
-### 🎖️ Competitive Programming & Problem Solving
-
-- 🔗 **LeetCode** - [View My Profile](https://leetcode.com/u/manjith766/)
-- 📚 **Data Structures & Algorithms** - Tree, Graph, Dynamic Programming, Sorting, Searching
-- 💪 **Problem-Solving** - Focus on optimal solutions and algorithmic thinking
-
-### 🤝 Open Source Contributions
-
-I'm passionate about contributing to open-source projects:
-- 🔄 **Contributing to** - Community projects and frameworks
-- 🎯 **Looking for** - Opportunities to contribute to popular Spring Boot, Java, or Backend projects
-- 📢 **Let's Collaborate** - Reach out if you have interesting open-source opportunities!
-
----
-
-## 📞 Let's Connect
-
-I'm always interested in collaborating on exciting backend projects, discussing software architecture, or exploring new opportunities.
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manjith9989@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manjith-nagineni)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manjith766)
-[![Phone](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+919398303933)
-
-**Feel free to reach out for:**
-- 💬 Backend development discussions
-- 🤖 AI/ML integration opportunities
-- 🤝 Collaboration opportunities
-- 📧 Project inquiries
-- 🎓 Learning and mentoring
-
-</div>
-
----
-
-## 🎨 Development Philosophy
-
-<div align="center">
-
-> "Code is read much more often than it is written. Write code that humans can understand."
-
-**Building backend systems that are:**
-- 🔒 **Secure** - Protecting user data and system integrity
-- ⚡ **Performant** - Optimized for speed and resource efficiency
-- 📚 **Maintainable** - Clean, well-documented, and easy to extend
-- 🏗️ **Scalable** - Architected for growth and future demands
-- 🧪 **Testable** - Comprehensive test coverage and reliability
-- 🤖 **Intelligent** - Integrated with AI capabilities where beneficial
-
-</div>
-
----
-
-<div align="center">
-
-## 📈 My Journey
-
-```
-🎓 Fresher Developer → 💪 Continuous Learner → 🚀 Backend Engineer → 🤖 AI-Enabled Developer → 🌟 Tech Leader
-```
-
-I'm on an exciting journey to master backend development and contribute to impactful projects!
-
-</div>
-
----
-
-## 📊 Contribution Snake
-
-![GitHub Contribution Snake](https://raw.githubusercontent.com/manjith766/manjith766-/output/github-contribution-grid-snake.svg)
-
----
-
-<div align="center">
-
-### ⭐ If you find my projects or profile helpful, please consider giving a star! ⭐
+<br/>
 
 ---
 
 **Made with ❤️ by [Manjith Nagineni](https://github.com/manjith766)**
 
 ```
-⚙️  Java Full Stack Developer | 🚀 Backend Specialist | 🤖 AI Integration
-📍 Hyderabad, India | 💼 Always Open to Opportunities
+☕ Java Full Stack Developer  |  🚀 Backend Specialist  |  🤖 AI Integration
+📍 Hyderabad, India  |  💼 Open to Opportunities
 ```
 
-[![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=manjith766.manjith766-)](https://github.com/manjith766)
+⭐ *If you find my work helpful, a star goes a long way!* ⭐
 
-Last Updated: 2026-05-25
+[![Visitor Badge](https://komarev.com/ghpvc/?username=manjith766&label=Profile+Views&color=7AA2F7&style=flat-square)](https://github.com/manjith766)
 
 </div>
