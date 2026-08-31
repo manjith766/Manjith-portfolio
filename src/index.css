@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 dark:bg-slate-950 dark:text-slate-200 transition-colors duration-300;
+}
+
+::selection {
+  @apply bg-primary/20 text-primary-dark dark:text-primary-light;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-slate-700 rounded-full;
+}
+
+@layer components {
+  .section {
+    @apply relative py-24 px-6 sm:px-10 lg:px-16 max-w-7xl mx-auto;
+  }
+
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 font-mono text-xs tracking-[0.2em] uppercase text-primary dark:text-primary-light mb-4;
+  }
+
+  .section-title {
+    @apply font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 dark:text-white mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-slate-500 dark:text-slate-400 max-w-2xl text-base sm:text-lg mb-14;
+  }
+
+  .glass {
+    @apply bg-white/60 dark:bg-white/[0.04] backdrop-blur-xl border border-slate-200/70 dark:border-white/10;
+  }
+
+  .glass-card {
+    @apply glass rounded-2xl shadow-[0_4px_24px_rgba(15,23,42,0.06)] dark:shadow-[0_4px_24px_rgba(0,0,0,0.25)] transition-all duration-300;
+  }
+
+  .glass-card:hover {
+    @apply -translate-y-1 shadow-glow border-primary/30 dark:border-primary/30;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold text-white bg-gradient-to-r from-primary to-accent shadow-glow hover:shadow-glow-accent hover:scale-[1.03] active:scale-[0.98] transition-all duration-300;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold glass hover:border-primary/40 hover:-translate-y-0.5 transition-all duration-300 text-slate-700 dark:text-slate-200;
+  }
+
+  .chip {
+    @apply px-3 py-1 rounded-full text-xs font-mono border border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-white/5 text-slate-600 dark:text-slate-300;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
