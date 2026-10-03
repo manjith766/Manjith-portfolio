@@ -7,16 +7,18 @@ import { useFirestoreCollection } from '../hooks/useFirestoreCollection';
 import { useInView } from '../hooks/useInView';
 
 function Counter({ value, inView, suffix }: { value: number; inView: boolean; suffix?: string }) {
-  const [display, setDisplay] = useState(0);
+  const [display, setDisplay] = useState('0');
 
   useEffect(() => {
     if (!inView) return;
     const duration = 1200;
     const start = performance.now();
+    const isDecimal = value % 1 !== 0;
 
     function tick(now: number) {
       const progress = Math.min((now - start) / duration, 1);
-      setDisplay(Math.round(progress * value));
+      const current = progress * value;
+      setDisplay(isDecimal ? current.toFixed(1) : Math.round(current).toString());
       if (progress < 1) requestAnimationFrame(tick);
     }
 
@@ -36,6 +38,8 @@ export default function Stats() {
   const { ref, inView } = useInView<HTMLDivElement>();
   const { data: live } = useFirestoreCollection<FsStat>(COLLECTIONS.stats);
   const stats = live.length > 0 ? live : (statsSeed as FsStat[]);
+
+  if (stats.length === 0) return null;
 
   return (
     <section className="section !py-16" ref={ref}>

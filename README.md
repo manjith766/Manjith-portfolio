@@ -14,11 +14,9 @@ npm run build      # production build in dist/
 npm run preview    # preview the production build
 ```
 
-**First time?** See [`ADMIN_SETUP.md`](./ADMIN_SETUP.md) for the one-time Firebase
-project setup (create project, enable Firestore + a single admin login, add your env
-keys, seed your starter content). Until you do that, the site renders fine using the
-bundled fallback content in `src/data/seed.ts`, but `/admin` won't be able to save
-anything.
+**Documentation**:
+- 🏛️ [**Complete Architecture & Structure Guide**](./PROJECT_STRUCTURE.md) — Comprehensive guide explaining folder hierarchy, data flow, Firestore schema, Firebase Storage, and the CMS.
+- 🔐 [**Admin Setup Guide**](./ADMIN_SETUP.md) — One-time setup instructions for Firebase Authentication, Firestore, and environment variables.
 
 ## Architecture
 

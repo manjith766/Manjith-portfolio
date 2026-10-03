@@ -8,10 +8,16 @@ import { useFirestoreCollection } from '../hooks/useFirestoreCollection';
 import { useInView } from '../hooks/useInView';
 import { SectionError, SectionLoading } from './SectionState';
 
+interface SkillItem {
+  name: string;
+  level: number;
+  years?: string;
+}
+
 interface SkillGroup {
   id: string;
   label: string;
-  skills: { name: string; level: number }[];
+  skills: SkillItem[];
 }
 
 export default function Skills() {
@@ -28,10 +34,13 @@ export default function Skills() {
       if (!byCategory.has(key)) {
         byCategory.set(key, { id: key, label: skill.categoryName || 'Other', skills: [] });
       }
-      byCategory.get(key)!.skills.push({ name: skill.name, level: skill.proficiencyPct ?? 0 });
+      byCategory.get(key)!.skills.push({
+        name: skill.name,
+        level: skill.proficiencyPct ?? 0,
+        years: skill.yearsExperience,
+      });
     }
     return Array.from(byCategory.values());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [skills]);
 
   const activeId = active ?? groups[0]?.id ?? null;
@@ -43,8 +52,7 @@ export default function Skills() {
       <p className="section-eyebrow">Skills</p>
       <h2 className="section-title">Technical toolbox</h2>
       <p className="section-subtitle">
-        Grouped the way a request actually moves through the systems I build — interface, gateway,
-        application, data, and infrastructure.
+        Grouped by system layer — backend, frontend, database, messaging, and engineering tooling.
       </p>
 
       {showLoading && <SectionLoading label="Loading skills…" />}
@@ -78,8 +86,15 @@ export default function Skills() {
             <div className="grid sm:grid-cols-2 gap-x-10 gap-y-6">
               {category.skills.map((skill, i) => (
                 <div key={skill.name}>
-                  <div className="flex justify-between text-sm mb-2">
-                    <span className="font-medium text-slate-700 dark:text-slate-200">{skill.name}</span>
+                  <div className="flex justify-between items-baseline text-sm mb-2">
+                    <span className="font-medium text-slate-700 dark:text-slate-200">
+                      {skill.name}
+                      {skill.years && (
+                        <span className="text-xs text-slate-400 font-normal ml-2">
+                          ({skill.years} {parseFloat(skill.years) === 1 ? 'yr' : 'yrs'})
+                        </span>
+                      )}
+                    </span>
                     <span className="font-mono text-xs text-slate-400">{skill.level}%</span>
                   </div>
                   <div className="h-2 rounded-full bg-slate-100 dark:bg-white/5 overflow-hidden">

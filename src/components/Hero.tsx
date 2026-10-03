@@ -3,16 +3,25 @@ import { motion } from 'framer-motion';
 import { Download, Github, Linkedin, Mail, MessageCircle } from 'lucide-react';
 import { useProfile, useSocialLinks } from '../hooks/useSiteData';
 
-const FLOATING_TAGS = [
-  { label: 'Java', style: 'top-[12%] left-[6%]', delay: 0 },
-  { label: 'Spring Boot', style: 'top-[22%] right-[8%]', delay: 0.6 },
-  { label: 'Microservices', style: 'top-[62%] left-[3%]', delay: 1.1 },
-  { label: 'Docker', style: 'bottom-[10%] right-[10%]', delay: 0.3 },
-  { label: 'Kafka', style: 'bottom-[18%] left-[16%]', delay: 1.5 },
-  { label: 'MySQL', style: 'top-[6%] left-[42%]', delay: 0.9 },
+const TYPING_STATEMENTS = [
+  'Building secure REST APIs and event-driven microservices with Spring Boot.',
+  'Designing transactional order workflows with PostgreSQL.',
+  'Implementing asynchronous messaging with Apache Kafka.',
+  'Building React + TypeScript dashboards for real products.',
 ];
 
-function useTypingEffect(words: string[], typingSpeed = 65, pause = 1400) {
+const HERO_CHIPS = [
+  { label: 'Java', style: 'top-[12%] left-[6%]', delay: 0 },
+  { label: 'Spring Boot', style: 'top-[22%] right-[8%]', delay: 0.2 },
+  { label: 'Microservices', style: 'top-[60%] left-[3%]', delay: 0.4 },
+  { label: 'Kafka', style: 'bottom-[12%] right-[10%]', delay: 0.6 },
+  { label: 'PostgreSQL', style: 'bottom-[18%] left-[16%]', delay: 0.8 },
+  { label: 'React', style: 'top-[6%] left-[42%]', delay: 1.0 },
+  { label: 'TypeScript', style: 'top-[45%] right-[4%]', delay: 1.2 },
+  { label: 'Docker', style: 'bottom-[6%] left-[48%]', delay: 1.4 },
+];
+
+function useTypingEffect(words: string[], typingSpeed = 50, pause = 1600) {
   const [text, setText] = useState('');
   const [wordIndex, setWordIndex] = useState(0);
   const [deleting, setDeleting] = useState(false);
@@ -46,7 +55,7 @@ function useTypingEffect(words: string[], typingSpeed = 65, pause = 1400) {
 
 export default function Hero() {
   const { profile } = useProfile();
-  const typed = useTypingEffect(profile.taglines);
+  const typed = useTypingEffect(TYPING_STATEMENTS);
   const { find } = useSocialLinks();
   const resumeHref = profile.resumeUrl || '#';
 
@@ -67,29 +76,33 @@ export default function Hero() {
         style={{ animationDelay: '3s' }}
       />
 
-      {FLOATING_TAGS.map((tag) => (
+      {HERO_CHIPS.map((chip) => (
         <motion.span
-          key={tag.label}
+          key={chip.label}
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: tag.delay, duration: 0.6 }}
-          className={`hidden lg:block absolute ${tag.style} chip animate-float shadow-sm`}
-          style={{ animationDelay: `${tag.delay}s` }}
+          transition={{ delay: chip.delay, duration: 0.6 }}
+          className={`hidden lg:block absolute ${chip.style} chip animate-float shadow-sm`}
+          style={{ animationDelay: `${chip.delay}s` }}
         >
-          {tag.label}
+          {chip.label}
         </motion.span>
       ))}
 
       <div className="relative section !py-32 grid lg:grid-cols-[1.2fr_0.8fr] gap-16 items-center">
         <div>
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="section-eyebrow"
+            className="flex items-center gap-3 mb-4"
           >
-            Available for full-time roles &amp; consulting
-          </motion.p>
+            <span className="section-eyebrow !mb-0">SOFTWARE ENGINEER</span>
+            <span className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+              <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
+              Available for Full-Time Java Full Stack &amp; Backend Roles
+            </span>
+          </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 16 }}
@@ -104,7 +117,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="h-9 mb-6 font-mono text-lg sm:text-xl text-primary dark:text-primary-light"
+            className="min-h-[3rem] mb-6 font-mono text-base sm:text-lg text-primary dark:text-primary-light"
           >
             {typed}
             <span className="animate-pulse">|</span>
@@ -116,7 +129,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-slate-600 dark:text-slate-400 text-base sm:text-lg max-w-xl mb-9"
           >
-            {profile.summary}
+            I build secure REST APIs, microservices, and event-driven backends with Spring Boot, Hibernate, and Kafka, paired with clean, responsive React + TypeScript frontends.
           </motion.p>
 
           <motion.div
@@ -151,7 +164,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={label}
-                className="grid h-11 w-11 place-items-center rounded-full glass hover:text-primary hover:border-primary/40 hover:-translate-y-1 transition-all duration-300"
+                className="grid h-10 w-10 place-items-center rounded-full glass hover:text-primary hover:-translate-y-1 transition-all"
               >
                 <Icon size={18} />
               </a>
@@ -159,20 +172,41 @@ export default function Hero() {
           </motion.div>
         </div>
 
+        {/* Quick Tech Highlights Card */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
+          initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="relative mx-auto"
+          className="glass-card p-8 space-y-6"
         >
-          <div className="relative h-72 w-72 sm:h-80 sm:w-80 rounded-[2rem] glass-card grid place-items-center animate-float-slow">
-            <div className="h-full w-full rounded-[2rem] bg-gradient-to-br from-primary/15 via-accent/10 to-secondary/15 grid place-items-center">
-              <span className="font-display text-6xl font-bold gradient-text">MN</span>
-            </div>
-            {/* Replace this block with an <img> of your photo when ready */}
+          <div className="font-display font-semibold text-lg border-b border-slate-200 dark:border-white/10 pb-4">
+            Tech Core
           </div>
-          <div className="absolute -bottom-4 -left-4 glass-card px-4 py-3 text-sm font-mono">
-            3+ yrs {'\u00b7'} Java / Spring Boot
+          <div className="space-y-4 text-sm">
+            <div>
+              <div className="text-xs font-mono text-slate-400 mb-1">BACKEND &amp; MICROSERVICES</div>
+              <div className="font-medium text-slate-700 dark:text-slate-200">
+                Java 17 · Spring Boot 3 · Spring Security · OpenFeign · Eureka
+              </div>
+            </div>
+            <div>
+              <div className="text-xs font-mono text-slate-400 mb-1">MESSAGING &amp; PERSISTENCE</div>
+              <div className="font-medium text-slate-700 dark:text-slate-200">
+                Apache Kafka · PostgreSQL · PostGIS · Redis · Hibernate/JPA
+              </div>
+            </div>
+            <div>
+              <div className="text-xs font-mono text-slate-400 mb-1">FRONTEND &amp; UI</div>
+              <div className="font-medium text-slate-700 dark:text-slate-200">
+                React 18 · TypeScript · Redux Toolkit · Tailwind CSS
+              </div>
+            </div>
+            <div>
+              <div className="text-xs font-mono text-slate-400 mb-1">TESTING &amp; DEVOPS</div>
+              <div className="font-medium text-slate-700 dark:text-slate-200">
+                JUnit · Mockito · Postman · Docker · AWS SES
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>

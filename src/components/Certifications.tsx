@@ -57,8 +57,11 @@ export default function Certifications() {
                 className="glass-card p-6 flex flex-col items-center text-center"
               >
                 {cert.credentialUrl ? (
-                  <a href={cert.credentialUrl} target="_blank" rel="noreferrer" className="flex flex-col items-center">
+                  <a href={cert.credentialUrl} target="_blank" rel="noreferrer" className="flex flex-col items-center group">
                     {card}
+                    <span className="mt-3 inline-flex items-center gap-1 text-xs text-primary font-medium group-hover:underline">
+                      Verified Credential &rarr;
+                    </span>
                   </a>
                 ) : (
                   card

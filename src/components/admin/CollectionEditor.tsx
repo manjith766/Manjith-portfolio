@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Pencil, Plus, Save, Trash2, X } from 'lucide-react';
 import { CollectionName, addItem, deleteItem, updateItem } from '../../lib/firestoreApi';
 import { useFirestoreCollection } from '../../hooks/useFirestoreCollection';
+import FileUpload from './FileUpload';
 
 export type FieldType = 'text' | 'textarea' | 'number' | 'boolean' | 'string-list';
 
@@ -141,7 +142,15 @@ export default function CollectionEditor({ title, description, collectionName, f
             <div key={f.key}>
               <label className="block text-sm font-medium mb-1.5">{f.label}</label>
               {f.hint && <p className="text-xs text-slate-400 mb-1.5">{f.hint}</p>}
-              {f.type === 'textarea' || f.type === 'string-list' ? (
+              {f.key === 'imageUrl' ? (
+                <FileUpload
+                  value={String(draft[f.key] ?? '')}
+                  onChange={(url) => setDraft((d) => ({ ...d, [f.key]: url }))}
+                  folder="certificates"
+                  accept="image/*"
+                  label="Upload certificate image"
+                />
+              ) : f.type === 'textarea' || f.type === 'string-list' ? (
                 <textarea
                   rows={f.type === 'string-list' ? 4 : 3}
                   value={String(draft[f.key] ?? '')}

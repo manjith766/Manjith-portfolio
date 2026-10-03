@@ -44,10 +44,9 @@ export default function Contact() {
   return (
     <section id="contact" className="section" ref={ref}>
       <p className="section-eyebrow">Contact</p>
-      <h2 className="section-title">Let&apos;s build something reliable</h2>
+      <h2 className="section-title">Let&apos;s Build Something Reliable.</h2>
       <p className="section-subtitle">
-        Open to full-time Java backend roles and backend architecture consulting. The fastest way
-        to reach me is email or LinkedIn.
+        Available for: Java Full Stack Development, Java Backend Engineering, Spring Boot &amp; Microservices, REST API Architecture, React + TypeScript Frontends.
       </p>
 
       <div className="grid lg:grid-cols-[0.85fr_1.15fr] gap-10">
@@ -82,7 +81,7 @@ export default function Contact() {
               <MapPin size={18} />
             </span>
             <span className="text-slate-700 dark:text-slate-200 font-medium">
-              {profile.location} — open to remote &amp; hybrid
+              Hyderabad, Telangana, India (open to on-site, hybrid, and remote, and to relocation across India)
             </span>
           </div>
         </motion.div>

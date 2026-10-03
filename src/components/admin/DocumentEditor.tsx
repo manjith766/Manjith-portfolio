@@ -3,6 +3,7 @@ import { Save } from 'lucide-react';
 import { setSingletonDoc } from '../../lib/firestoreApi';
 import { useFirestoreDocument } from '../../hooks/useFirestoreDocument';
 import type { FieldConfig } from './CollectionEditor';
+import FileUpload from './FileUpload';
 
 interface Props {
   title: string;
@@ -87,7 +88,15 @@ export default function DocumentEditor({ title, description, target, fields, see
             <div key={f.key}>
               <label className="block text-sm font-medium mb-1.5">{f.label}</label>
               {f.hint && <p className="text-xs text-slate-400 mb-1.5">{f.hint}</p>}
-              {f.type === 'textarea' || f.type === 'string-list' ? (
+              {f.key === 'resumeUrl' ? (
+                <FileUpload
+                  value={String(draft[f.key] ?? '')}
+                  onChange={(url) => setDraft((d) => ({ ...d, [f.key]: url }))}
+                  folder="resumes"
+                  accept=".pdf,.doc,.docx,image/*"
+                  label="Upload résumé file"
+                />
+              ) : f.type === 'textarea' || f.type === 'string-list' ? (
                 <textarea
                   rows={f.type === 'string-list' ? 4 : 3}
                   value={String(draft[f.key] ?? '')}

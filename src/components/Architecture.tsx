@@ -14,8 +14,9 @@ export default function Architecture() {
       <p className="section-eyebrow">System design</p>
       <h2 className="section-title">How a request actually moves</h2>
       <p className="section-subtitle">
-        The microservice layout behind the JippyFood &amp; Mart platform — the same shape I reach
-        for whenever a system needs to scale service by service instead of all at once.
+        The microservice layout behind the JippyFood &amp; Mart platform — the same
+        shape I reach for whenever a system needs to scale service by service instead
+        of all at once.
       </p>
 
       <div className="glass-card p-6 sm:p-10">

@@ -4,3 +4,8 @@ dist
 *.log
 .env
 .env.local
+*.tsbuildinfo
+.firebase
+vite.config.js
+vite.config.d.ts
+

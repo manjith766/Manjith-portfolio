@@ -1,14 +1,11 @@
 import { initializeApp, getApps } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
+import { getStorage } from 'firebase/storage';
 
 /**
  * Firebase project config — pulled from Vite env vars so no secrets are
- * hardcoded in source. Copy .env.example to .env.local and fill these in
- * from your Firebase project's Settings > General > "Your apps" > SDK
- * config. These values are NOT secret (they're safe to ship in a client
- * bundle) — access is actually controlled by Firestore Security Rules and
- * Firebase Auth, not by hiding this config.
+ * hardcoded in source.
  */
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -26,4 +23,5 @@ const app = getApps().length ? getApps()[0]! : initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
 export const auth = getAuth(app);
+export const storage = getStorage(app);
 export default app;

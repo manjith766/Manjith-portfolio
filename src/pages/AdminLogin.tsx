@@ -33,7 +33,7 @@ export default function AdminLogin() {
 
         {!firebaseEnabled && (
           <p className="text-sm text-amber-500 mb-4">
-            Firebase isn&apos;t configured yet — add your project keys to <code className="chip">.env.local</code>{' '}
+            Firebase isn&apos;t configured yet — add your project keys to <code className="chip">.env</code>{' '}
             first (see .env.example).
           </p>
         )}

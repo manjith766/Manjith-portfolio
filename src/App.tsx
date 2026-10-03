@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import { ArrowRight, ShieldCheck } from 'lucide-react';
 import Navbar from './components/Navbar';
 import ScrollProgress from './components/ScrollProgress';
 import BackToTop from './components/BackToTop';
@@ -13,14 +15,11 @@ import Testimonials from './components/Testimonials';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { useAuth } from './context/AuthContext';
 
-// The public, visitor-facing site. All content (bio, skills, projects,
-// experience, education, certifications, social links) is read live from
-// Firestore (see src/hooks/useFirestoreCollection.ts,
-// src/hooks/useSiteData.ts) with a bundled fallback in src/data/seed.ts,
-// so the site is never blank even before you've added anything in /admin.
-// ThemeProvider and routing are set up once at the root in src/main.tsx.
 export default function App() {
+  const { user } = useAuth();
+
   return (
     <>
       <ScrollProgress />
@@ -40,6 +39,21 @@ export default function App() {
       </main>
       <Footer />
       <BackToTop />
+
+      {/* Quick access to edit, update and delete when logged in as admin */}
+      {user && (
+        <div className="fixed bottom-6 left-6 z-50">
+          <Link
+            to="/admin"
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-slate-900/90 dark:bg-white/90 text-white dark:text-slate-900 text-xs font-semibold shadow-xl border border-white/10 dark:border-slate-800 backdrop-blur-md hover:scale-105 transition-all"
+            title="Open Admin Dashboard to Edit, Update & Delete"
+          >
+            <ShieldCheck size={15} className="text-emerald-500" />
+            <span>Admin Panel (Edit / Update / Delete)</span>
+            <ArrowRight size={13} />
+          </Link>
+        </div>
+      )}
     </>
   );
 }
